@@ -1,0 +1,7 @@
+PA Estudo
+porcentagem = (x * %)/100
+sempre "se (a>=b e b<=c)" nunca "se (a>=b b<=c)", o "e" é importante para separação.
+declaração de variáveis
+inteiro: números inteiros, como idade
+real: números com decimal, como preço
+caracter: usa letras, caracteres
