@@ -12,12 +12,9 @@ public class AlgoritmoVerificaçãoDeSenha {
     
     public static void main(String[] args) {
     String senha=JOptionPane.showInputDialog(null,"Digite a senha");
-    String senhacorr="abcd";
-    if(senha==senhacorr)
-        System.out.println("Senha correta! Acesso permitido");
-    else
-        System.out.println("Senha incorreta! Acesso negado");
-    
+    if(senha.equals("abcd")){
+      JOptionPnae.showMessageDialog(null,"Senha correta, acesso permitido.");}
+    else{
+        JOptionPane.showMessageDialog(null,"Senha incorreta, acesso negado.");}
     }
-    
 }
