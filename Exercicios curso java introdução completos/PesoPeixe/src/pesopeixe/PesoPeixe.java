@@ -22,12 +22,6 @@ public class PesoPeixe {
         JOptionPane.showMessageDialog(null,"Multa por peso excedente total: "+multa);}
         if (peso<=50){
             JOptionPane.showMessageDialog(null,"Não houve multa por peso excedente.");
-        }
-        
-        
-        
-            
-        
+        }  
     }
-    
 }
