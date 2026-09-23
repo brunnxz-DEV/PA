@@ -55,7 +55,7 @@ public class MenuCalculadora {
             break;
         case 2:
             calculadora.subtrair(num1,num2);
-            saida = "Resultado da subtração: " + calculadora.getResuldado();
+            saida = "Resultado da subtração: " + calculadora.getResultado();
             io.saidaDados(saida);
             break;
         case 3:
