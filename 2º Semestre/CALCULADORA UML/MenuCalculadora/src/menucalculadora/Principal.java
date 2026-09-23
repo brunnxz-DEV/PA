@@ -3,11 +3,10 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package menucalculadora;
-
-/**
- *
- * @author Admin
- */
 public class Principal {
+    public static void main (String[]args){
+        MenuCalculadora menu = new MenuCalculadora();
+        menu.executarCalculadora();
+    }
     
 }
