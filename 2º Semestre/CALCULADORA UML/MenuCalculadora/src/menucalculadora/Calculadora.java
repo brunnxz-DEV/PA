@@ -13,12 +13,12 @@ public class Calculadora {
     private double numero02;
     private double resultado;
     
-    public Calculadora(double numero01, double numero02, double resultado){
+    public Calculadora(){
         this.numero01 = numero01;
         this.numero02 = numero02;
         this.resultado = resultado;
     }
-    
+
     public double getNumero01(){
         return numero01;
     }
